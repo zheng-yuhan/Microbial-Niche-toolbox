@@ -6,7 +6,7 @@ function nB = nicheB(otu,method,e)
 % e         = enviroment data
 % nB        = result of niche breadth
 % ---Notes:---
-% This function is used to calculation of Coeficient of Niche Breadth Analysis.
+% This function is used to calculation of Coefficient of Niche Breadth Analysis.
 %METHOD = 1, Use Levins method to calculation
 %METHOD = 2, Use Shannon-Wienner method to calculation
 %METHOD = 3, Use Smith method to calculation niche breadth with environment
