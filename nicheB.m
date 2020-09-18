@@ -1,5 +1,5 @@
 function nB = nicheB(otu,method,e)
-%- coeficient of niche breadth
+%- coefficient of niche breadth
 %USAGE: nB=nicheB(otu,method,e)
 % otu       = input data (rows = objects, cols = variables)
 % method    =  Levins(=1,default);Shannon-WInener(=2) or Smith(=3)
