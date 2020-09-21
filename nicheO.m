@@ -12,7 +12,7 @@ function nO=nicheO(otu,method,e)
 %METHOD = 3, Use Petraitis method to calculation
 %factors
 % -----References:-----
-% 
+% Levins R. 1968. Evolution in Changing Environments: Some Theoretical Explorations
 % -----Author:-----
 % by Yuhan Zheng, Sep-2020
 
