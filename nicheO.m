@@ -46,7 +46,14 @@ switch method
                 
             end
         end
-
+  case 4
+        for i=1:a
+            for j=1:a
+               O1=sum(otu(i,:).*otu(j,:));
+               O2=sqrt(sum(otu(i,:).*otu(i,:)).*sum(otu(j,:).*otu(j,:)));
+                nO(i,j)= O1./O2;
+            end
+        end
 end
        
 end
