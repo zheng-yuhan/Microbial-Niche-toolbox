@@ -21,6 +21,7 @@ if (nargin < 2), method =1; end % center X by default
 
 [a,~]=size(otu);
 otu=otu./sum(otu);
+nO=zeros(a,a);
 switch method
     case 1
 %        nO(a,a)=[];
