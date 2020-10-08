@@ -2,7 +2,7 @@ function nO=nicheO(otu,method,e)
 %- coefficient of niche overlap
 %USAGE: nB=nicheO(otu,method,e)
 % otu       = input data (rows = objects, cols = variables)
-% method    = Levins(=1,default);Schoener(=2); Petraitis(=3)
+% method    = Levins(=1,default);Schoener(=2); Petraitis(=3); Pianka(=4)
 % e         = envrionmental factors
 % nO        = result of niche overlap
 % ---Notes:---
