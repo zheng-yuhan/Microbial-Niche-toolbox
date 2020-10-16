@@ -36,7 +36,6 @@ end
 if method==3
     parfor i=1:a
         B=sum(sqrt(otu(i)*e(i)));
-        nB(i)=B;        
-    
+        nB(i)=B;            
     end
 end
