@@ -22,9 +22,9 @@ if (nargin < 2), method =1; end % center X by default
 
 [a,~]=size(otu);
 otu=otu./sum(otu);
-nO=zeros(a,a);
+nO=zeros(a,a); 
 switch method
-    case 1
+    case 1  % Use Levins method
 %        nO(a,a)=[];
         parfor i=1:a
              for j=1:a
@@ -34,20 +34,20 @@ switch method
              end
         end
        
-    case 2
+    case 2 % Use Schoener method
         for i=1:a
             for j=1:a
                 nO(i,j)=1-0.5*sum(abs(otu(i,:)-otu(j,:)));
             end
-        end
-    case 3
+        end 
+    case 3 %  Use Petraitis method
         for i=1:a
             for j=1:a
                 nO(i,j)=exp(sum(otu(i,:).*log(otu(j,:)))-sum(otu(i,:).*log(otu(i,:))));
                 
             end
         end
-  case 4
+  case 4 % Use Pianka method
         for i=1:a
             for j=1:a
                O1=sum(otu(i,:).*otu(j,:));
