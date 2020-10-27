@@ -11,6 +11,7 @@ function nO=nicheO(otu,method,e)
 %METHOD = 2, Use Schoener method to calculation
 %METHOD = 3, Use Petraitis method to calculation
 %METHOD = 4, Use Pianka method to calculation
+
 %factors
 % -----References:-----
 % Levins R. 1968. Evolution in Changing Environments: Some Theoretical Explorations
